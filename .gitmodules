@@ -1,0 +1,15 @@
+[submodule "repos/wordsmith"]
+	path = repos/wordsmith
+	url = https://github.com/jpetazzo/wordsmith
+[submodule "repos/getting-started"]
+	path = repos/getting-started
+	url = https://github.com/docker/getting-started.git
+[submodule "repos/namer"]
+	path = repos/namer
+	url = https://github.com/jpetazzo/namer
+[submodule "repos/trainingwheels"]
+	path = repos/trainingwheels
+	url = https://github.com/jpetazzo/trainingwheels
+[submodule "repos/container.training"]
+	path = repos/container.training
+	url = https://github.com/jpetazzo/container.training
