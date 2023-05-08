@@ -1,0 +1,25 @@
+version: "3.9"
+services:
+  words:
+    build: words/.
+    networks:
+      - words
+      - db
+  frontend:
+    build: web/.
+    networks:
+      - frontend
+      - words
+    ports:
+      - "80:80"
+  db:
+    build: db/.
+    networks:
+      - db
+networks:
+  frontend:
+    driver: bridge
+  words:
+    driver: bridge
+  db:
+    driver: bridge
